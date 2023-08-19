@@ -1,0 +1,24 @@
+// method-1
+// exports.Hello=(req,res)=>{
+//     res.status(200).json({"status":"Success","data":"this is My API"})
+// }
+// method-2
+exports.HelloGet=(req,res)=>{
+    res.status(200).json({"status":"Success","data":"this is My API"})
+}
+exports.HelloPost=(req,res)=>{
+    res.status(201).json({"status":"Success","data":"this is My API"})
+}
+
+// method-3
+// exports.Hello=(req,res)=>{
+//     res.status(200).json({
+//         name:"eyasin ali",
+//         age:"24",
+//         height:`5'.7"`,
+//         weight:"51kg",
+//         Division:"Rajshahi",
+//         District:"Naogaon"
+
+//     })
+// }
